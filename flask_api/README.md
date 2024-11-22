@@ -43,5 +43,5 @@ The API is defined using the Swagger (OpenAPI 2.0) specification. View the Swagg
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/todo-api.git
-   cd todo-api
+   [git clone https://github.com/your-username/todo-api.git](https://github.com/cyd0c/Swagger_Flask.git)
+   
