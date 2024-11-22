@@ -44,4 +44,14 @@ The API is defined using the Swagger (OpenAPI 2.0) specification. View the Swagg
 1. **Clone the repository**:
    ```bash
    [git clone https://github.com/your-username/todo-api.git](https://github.com/cyd0c/Swagger_Flask.git)
-   
+
+
+2. **run app.py   
+
+3. **navigate to
+  ```
+   http://localhost:5000/api/docs
+```
+
+
+5.*** test the api endpoint on swagger ui
