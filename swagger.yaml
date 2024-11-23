@@ -5,14 +5,22 @@ info:
   version: "1.0.0"
   title: "To-Do List API"
   contact:
-    name: "Developer Name"
+    name: "AlanC"
     email: "developer@example.com"
-host: "localhost:5000"
+host: "localhost:8000"
 basePath: "/api"
 schemes:
 - "http"
+- "https"
+
 paths:
   /todos:
+    options:
+      summary: "CORS Preflight"
+      operationId: "controllers.controller.options_todos"
+      responses:
+        200:
+          description: "CORS preflight response"
     get:
       tags:
       - "default_controller"
@@ -44,6 +52,7 @@ paths:
           description: "To-do item created successfully"
           schema:
             $ref: "#/definitions/ToDo"
+
   /todos/{id}:
     get:
       tags:
